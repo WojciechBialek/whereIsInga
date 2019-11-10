@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './App.scss';
 import { Auth } from 'aws-amplify';
 
 import LogIn from './components/auth/login';

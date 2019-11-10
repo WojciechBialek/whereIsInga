@@ -1,0 +1,14 @@
+
+@import './style/mixins.scss';
+@import './style/calendar.scss';
+@import './style/header.scss';
+
+.App {
+  text-align: center;
+  height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+

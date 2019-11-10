@@ -1,7 +1,11 @@
 @import '~@fullcalendar/core/main.css';
 @import '~@fullcalendar/daygrid/main.css';
+@import '~@fullcalendar/timegrid/main.css';
 
 .calendar-wrapper {
-    width: 70%;
+    width: 100%;
+    @include tablet {
+        width: 70%;
+      }
     margin: 50px auto;
 }
